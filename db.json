@@ -1,0 +1,713 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Sofa Square Hight 3 Chỗ 3333 Da L2Z",
+      "price": 146430000,
+      "quantity": 20,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "isNew": true,
+      "isViewed": true,
+      "isSuggest": true,
+      "category": "men's clothing",
+      "categoryType": "categoryType",
+      "productMaterial": "productMaterial",
+      "image": "https://i.imgur.com/c0t4WSs.jpg",
+      "alterImage": "https://i.imgur.com/66cUyKw.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      }
+    },
+    {
+      "id": 2,
+      "title": "Sofa Square Hight 3 Chỗ 3333 Da L2Z",
+      "price": 6430000,
+      "quantity": 20,
+      "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+      "isNew": true,
+      "isViewed": true,
+      "isSuggest": false,
+      "category": "men's clothing",
+      "categoryType": "categoryType",
+      "productMaterial": "productMaterial",
+      "image": "https://i.imgur.com/2zZY8qP.jpg",
+      "alterImage": "https://i.imgur.com/200gefB.jpg",
+      "rating": {
+        "rate": 4.1,
+        "count": 259
+      }
+    },
+    {
+      "id": 3,
+      "title": "Mens Cotton Jacket",
+      "price": 14420000,
+      "quantity": 20,
+      "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+      "isNew": true,
+      "isViewed": true,
+      "isSuggest": true,
+      "category": "men's clothing",
+      "categoryType": "categoryType",
+      "productMaterial": "productMaterial",
+      "image": "https://i.imgur.com/B1F3w6H.jpg",
+      "alterImage": "https://i.imgur.com/fF2EkXW.jpg",
+      "rating": {
+        "rate": 4.7,
+        "count": 500
+      }
+    },
+    {
+      "id": 4,
+      "title": "Mens Casual Slim Fit",
+      "price": 5430000,
+      "quantity": 20,
+      "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+      "isNew": true,
+      "isViewed": true,
+      "isSuggest": false,
+      "category": "men's clothing",
+      "categoryType": "categoryType",
+      "productMaterial": "productMaterial",
+      "image": "https://i.imgur.com/i43RIHT.jpg",
+      "alterImage": "https://i.imgur.com/o8Cjq3j.jpg",
+      "rating": {
+        "rate": 2.1,
+        "count": 430
+      },
+      "method": "PATCH",
+      "body": "{\"requestId\":\"U8rVaMJfVqdzST5vUrREe\",\"signal\":{}}",
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Silver Dragon Station Chain Bracelet",
+      "price": 12430000,
+      "quantity": 20,
+      "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+      "isNew": true,
+      "isViewed": true,
+      "isSuggest": true,
+      "category": "jewelery",
+      "categoryType": "categoryType",
+      "productMaterial": "productMaterial",
+      "image": "https://i.imgur.com/XGbwdqJ.jpg",
+      "alterImage": "https://i.imgur.com/iiXMMSz.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 400
+      }
+    },
+    {
+      "id": 6,
+      "title": "Mens Cotton Jacket",
+      "price": 4430000,
+      "quantity": 20,
+      "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+      "isNew": true,
+      "isViewed": true,
+      "isSuggest": false,
+      "categoryType": "categoryType",
+      "productMaterial": "productMaterial",
+      "category": "men's clothing",
+      "image": "https://i.imgur.com/CU0m1ej.jpg",
+      "alterImage": "https://i.imgur.com/OxqOjCA.jpg",
+      "rating": {
+        "rate": 4.7,
+        "count": 500
+      }
+    },
+    {
+      "id": 7,
+      "title": "Mens Casual Slim Fit",
+      "price": 5430000,
+      "quantity": 20,
+      "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+      "isNew": true,
+      "isViewed": true,
+      "isSuggest": true,
+      "category": "men's clothing",
+      "categoryType": "categoryType",
+      "productMaterial": "productMaterial",
+      "image": "https://i.imgur.com/2j0l1Tj.jpg",
+      "alterImage": "https://i.imgur.com/yqaWMZR.jpg",
+      "rating": {
+        "rate": 2.1,
+        "count": 430
+      }
+    },
+    {
+      "id": 8,
+      "title": "Silver Dragon Station Chain",
+      "price": 12430000,
+      "quantity": 20,
+      "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+      "isNew": true,
+      "isViewed": true,
+      "isSuggest": false,
+      "category": "jewelery",
+      "categoryType": "categoryType",
+      "productMaterial": "productMaterial",
+      "image": "https://i.imgur.com/0XKbWb1.jpg",
+      "alterImage": "https://i.imgur.com/ALQV5XN.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 400
+      },
+      "method": "PATCH",
+      "headers": {
+        "Accept": "application/json",
+        "Content-Type": "application/json"
+      },
+      "body": "{\"requestId\":\"9jx2BnkhNGdRtKXsNBcrU\",\"signal\":{}}",
+      "": ""
+    },
+    {
+      "id": 9,
+      "title": "John Hardy Women's Legends",
+      "price": 10430000,
+      "quantity": 20,
+      "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+      "isNew": true,
+      "isViewed": false,
+      "isSuggest": false,
+      "category": "sofa",
+      "categoryType": "3",
+      "productMaterial": "Da Công Nghiệp",
+      "image": "https://i.imgur.com/j3j8xZK.jpg",
+      "alterImage": "https://i.imgur.com/66cUyKw.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 400
+      }
+    },
+    {
+      "id": 10,
+      "title": "John Hardy Women's Legends",
+      "price": 4430000,
+      "quantity": 20,
+      "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+      "isNew": true,
+      "isViewed": false,
+      "isSuggest": false,
+      "category": "sofa",
+      "categoryType": "2",
+      "productMaterial": "Da và Vải",
+      "image": "https://i.imgur.com/c0t4WSs.jpg",
+      "alterImage": "https://i.imgur.com/86tlLMW.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 400
+      }
+    },
+    {
+      "id": 11,
+      "title": "John Hardy Women's Legends",
+      "price": 5430000,
+      "quantity": 20,
+      "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+      "isNew": true,
+      "isViewed": false,
+      "isSuggest": false,
+      "category": "sofa",
+      "categoryType": "3",
+      "productMaterial": "Da Công Nghiệp",
+      "image": "https://i.imgur.com/OXKZoRP.jpg",
+      "alterImage": "https://i.imgur.com/ngOAVtN.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 400
+      }
+    },
+    {
+      "id": 12,
+      "title": "John Hardy Women's Legends",
+      "price": 13430000,
+      "quantity": 20,
+      "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+      "isNew": true,
+      "isViewed": false,
+      "isSuggest": false,
+      "category": "sofa",
+      "categoryType": "2",
+      "productMaterial": "Da và Vải",
+      "image": "https://i.imgur.com/bgt6thQ.jpg",
+      "alterImage": "https://i.imgur.com/shUacMq.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 400
+      }
+    },
+    {
+      "id": 13,
+      "title": "John Hardy Women's Legends",
+      "price": 10430000,
+      "quantity": 20,
+      "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+      "isNew": true,
+      "isViewed": false,
+      "isSuggest": false,
+      "category": "sofa",
+      "categoryType": "2",
+      "productMaterial": "Da Công Nghiệp",
+      "image": "https://i.imgur.com/bgt6thQ.jpg",
+      "alterImage": "https://i.imgur.com/Knv3YwX.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 400
+      }
+    },
+    {
+      "id": 14,
+      "title": "John Hardy Women's Legends",
+      "price": 8430000,
+      "quantity": 20,
+      "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+      "isNew": true,
+      "isViewed": false,
+      "isSuggest": false,
+      "category": "sofa",
+      "categoryType": "3",
+      "productMaterial": "Da",
+      "image": "https://i.imgur.com/bkrqe93.jpg",
+      "alterImage": "https://i.imgur.com/0Kb5YML.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 400
+      }
+    },
+    {
+      "id": 15,
+      "title": "John Hardy Women's Legends",
+      "price": 7430000,
+      "quantity": 20,
+      "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+      "isNew": true,
+      "isViewed": false,
+      "isSuggest": false,
+      "category": "sofa",
+      "categoryType": "2",
+      "productMaterial": "Da",
+      "image": "https://i.imgur.com/MOth2sO.jpg",
+      "alterImage": "https://i.imgur.com/ALQV5XN.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 400
+      }
+    },
+    {
+      "id": 16,
+      "title": "John Hardy Women's Legends",
+      "price": 6530000,
+      "quantity": 20,
+      "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+      "isNew": true,
+      "isViewed": false,
+      "isSuggest": false,
+      "category": "sofa",
+      "categoryType": "2",
+      "productMaterial": "Da và Vải",
+      "image": "https://i.imgur.com/FzGUQyJ.jpg",
+      "alterImage": "https://i.imgur.com/017BrV4.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 400
+      }
+    },
+    {
+      "id": 17,
+      "title": "John Hardy Women's Legends",
+      "price": 8430000,
+      "quantity": 20,
+      "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+      "isNew": true,
+      "isViewed": false,
+      "isSuggest": false,
+      "category": "sofa",
+      "categoryType": "2.5",
+      "productMaterial": "Da và Vải",
+      "image": "https://i.imgur.com/j3j8xZK.jpg",
+      "alterImage": "https://i.imgur.com/86tlLMW.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 400
+      }
+    },
+    {
+      "id": 18,
+      "title": "John Hardy Women's Legends",
+      "price": 8730000,
+      "quantity": 20,
+      "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+      "isNew": true,
+      "isViewed": false,
+      "isSuggest": false,
+      "category": "sofa",
+      "categoryType": "3",
+      "productMaterial": "Da",
+      "image": "https://i.imgur.com/c0t4WSs.jpg",
+      "alterImage": "https://i.imgur.com/ALQV5XN.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 400
+      }
+    },
+    {
+      "id": 19,
+      "title": "John Hardy Women's Legends",
+      "price": 10430000,
+      "quantity": 20,
+      "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+      "isNew": true,
+      "isViewed": false,
+      "isSuggest": false,
+      "category": "sofa",
+      "categoryType": "3",
+      "productMaterial": "Da Công Nghiệp",
+      "image": "https://i.imgur.com/OXKZoRP.jpg",
+      "alterImage": "https://i.imgur.com/ngOAVtN.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 400
+      }
+    },
+    {
+      "id": 20,
+      "title": "John Hardy Women's Legends",
+      "price": 11430000,
+      "quantity": 20,
+      "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+      "isNew": true,
+      "isViewed": false,
+      "isSuggest": false,
+      "category": "sofa",
+      "categoryType": "2.5",
+      "productMaterial": "Da và Vải",
+      "image": "https://i.imgur.com/0XKbWb1.jpg",
+      "alterImage": "https://i.imgur.com/shUacMq.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 400
+      }
+    },
+    {
+      "id": 21,
+      "title": "John Hardy Women's Legends",
+      "price": 9430000,
+      "quantity": 20,
+      "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+      "isNew": true,
+      "isViewed": false,
+      "isSuggest": false,
+      "category": "sofa",
+      "categoryType": "2",
+      "productMaterial": "Da",
+      "image": "https://i.imgur.com/bgt6thQ.jpg",
+      "alterImage": "https://i.imgur.com/Knv3YwX.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 400
+      }
+    },
+    {
+      "id": 22,
+      "title": "John Hardy Women's Legends",
+      "price": 8730000,
+      "quantity": 20,
+      "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+      "isNew": true,
+      "isViewed": false,
+      "isSuggest": false,
+      "category": "sofa",
+      "categoryType": "2.5",
+      "productMaterial": "Da và Vải",
+      "image": "https://i.imgur.com/0XKbWb1.jpg",
+      "alterImage": "https://i.imgur.com/0Kb5YML.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 400
+      }
+    },
+    {
+      "id": 23,
+      "title": "John Hardy Women's Legends",
+      "price": 7330000,
+      "quantity": 20,
+      "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+      "isNew": true,
+      "isViewed": false,
+      "isSuggest": false,
+      "category": "sofa",
+      "categoryType": "2",
+      "productMaterial": "Da Công Nghiệp",
+      "image": "https://i.imgur.com/MOth2sO.jpg",
+      "alterImage": "https://i.imgur.com/66cUyKw.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 400
+      }
+    },
+    {
+      "id": 24,
+      "title": "John Hardy Women's Legends",
+      "price": 5630000,
+      "quantity": 20,
+      "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+      "isNew": true,
+      "isViewed": false,
+      "isSuggest": false,
+      "category": "sofa",
+      "categoryType": "3",
+      "productMaterial": "Da và Vải",
+      "image": "https://i.imgur.com/0XKbWb1.jpg",
+      "alterImage": "https://i.imgur.com/017BrV4.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 400
+      }
+    },
+    {
+      "id": 25,
+      "title": "John Hardy Women's Legends",
+      "price": 4630000,
+      "quantity": 20,
+      "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+      "isNew": true,
+      "isViewed": false,
+      "isSuggest": false,
+      "category": "sofa",
+      "categoryType": "2",
+      "productMaterial": "Da",
+      "image": "https://i.imgur.com/j3j8xZK.jpg",
+      "alterImage": "https://i.imgur.com/66cUyKw.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 400
+      }
+    },
+    {
+      "id": 26,
+      "title": "John Hardy Women's Legends",
+      "price": 10430000,
+      "quantity": 20,
+      "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+      "isNew": true,
+      "isViewed": false,
+      "isSuggest": false,
+      "category": "sofa",
+      "categoryType": "2.5",
+      "productMaterial": "Da Công Nghiệp",
+      "image": "https://i.imgur.com/c0t4WSs.jpg",
+      "alterImage": "https://i.imgur.com/86tlLMW.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 400
+      }
+    },
+    {
+      "id": 27,
+      "title": "John Hardy Women's Legends",
+      "price": 11430000,
+      "quantity": 20,
+      "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+      "isNew": true,
+      "isViewed": false,
+      "isSuggest": false,
+      "category": "sofa",
+      "categoryType": "3",
+      "productMaterial": "Da",
+      "image": "https://i.imgur.com/OXKZoRP.jpg",
+      "alterImage": "https://i.imgur.com/ngOAVtN.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 400
+      }
+    },
+    {
+      "id": 28,
+      "title": "John Hardy Women's Legends",
+      "price": 12430000,
+      "quantity": 20,
+      "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+      "isNew": true,
+      "isViewed": false,
+      "isSuggest": false,
+      "category": "sofa",
+      "categoryType": "2.5",
+      "productMaterial": "Da và Vải",
+      "image": "https://i.imgur.com/bgt6thQ.jpg",
+      "alterImage": "https://i.imgur.com/shUacMq.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 400
+      }
+    }
+  ],
+  "rooms": [
+    {
+      "id": 1,
+      "title": "Phòng khách hiện đại với tone màu xanh nổi bật",
+      "description": "Nổi bật với thiết kế hiện đại nhưng vẫn toát [...]",
+      "category": "men's clothing",
+      "image": "https://i.imgur.com/03bjqFK.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      }
+    },
+    {
+      "id": 2,
+      "title": "Phòng khách bắc âu tinh tế",
+      "description": "Một thiết kế mang nét tối giản của Bắc Âu [...]",
+      "category": "men's clothing",
+      "image": "https://i.imgur.com/dElXg9L.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      }
+    },
+    {
+      "id": 3,
+      "title": "Phòng khách trầm ấm Osaka",
+      "description": "Nổi bật với thiết kế hiện đại nhưng vẫn toát [...]",
+      "category": "men's clothing",
+      "image": "https://i.imgur.com/MWCgXQM.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      }
+    },
+    {
+      "id": 4,
+      "title": "Không gian đong đầy màu sắc tươi mới",
+      "description": "Một thiết kế mang nét tối giản của Bắc Âu [...]",
+      "category": "men's clothing",
+      "image": "https://i.imgur.com/uoQHyJS.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      }
+    },
+    {
+      "id": 5,
+      "title": "Phòng khách hiện đại với tone màu xanh nổi bật",
+      "description": "Nổi bật với thiết kế hiện đại nhưng vẫn toát [...]",
+      "category": "men's clothing",
+      "image": "https://i.imgur.com/zN09CG2.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      }
+    },
+    {
+      "id": 6,
+      "title": "Phòng khách bắc âu tinh tế",
+      "description": "Một thiết kế mang nét tối giản của Bắc Âu [...]",
+      "category": "men's clothing",
+      "image": "https://i.imgur.com/OM4S0Uj.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      }
+    },
+    {
+      "id": 7,
+      "title": "Phòng khách trầm ấm Osaka",
+      "description": "Nổi bật với thiết kế hiện đại nhưng vẫn toát [...]",
+      "category": "men's clothing",
+      "image": "https://i.imgur.com/FplQNAi.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      }
+    },
+    {
+      "id": 8,
+      "title": "Không gian đong đầy màu sắc tươi mới",
+      "description": "Một thiết kế mang nét tối giản của Bắc Âu [...]",
+      "category": "men's clothing",
+      "image": "https://i.imgur.com/A72u1nz.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      }
+    },
+    {
+      "id": 9,
+      "title": "Phòng khách hiện đại với tone màu xanh nổi bật",
+      "description": "Nổi bật với thiết kế hiện đại nhưng vẫn toát [...]",
+      "category": "men's clothing",
+      "image": "https://i.imgur.com/4JuB6Bi.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      }
+    },
+    {
+      "id": 10,
+      "title": "Phòng khách bắc âu tinh tế",
+      "description": "Một thiết kế mang nét tối giản của Bắc Âu [...]",
+      "category": "men's clothing",
+      "image": "https://i.imgur.com/Knv3YwX.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      }
+    },
+    {
+      "id": 11,
+      "title": "Phòng khách trầm ấm Osaka",
+      "description": "Nổi bật với thiết kế hiện đại nhưng vẫn toát [...]",
+      "category": "men's clothing",
+      "image": "https://i.imgur.com/QTXeYSL.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      }
+    },
+    {
+      "id": 12,
+      "title": "Không gian đong đầy màu sắc tươi mới",
+      "description": "Một thiết kế mang nét tối giản của Bắc Âu [...]",
+      "category": "men's clothing",
+      "image": "https://i.imgur.com/KPBXlJ4.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      }
+    }
+  ],
+  "cart": [
+    {
+      "id": 4,
+      "title": "Mens Casual Slim Fit",
+      "price": 5430000,
+      "image": "https://i.imgur.com/i43RIHT.jpg",
+      "alterImage": "https://i.imgur.com/o8Cjq3j.jpg",
+      "quantity": 7
+    },
+    {
+      "id": 8,
+      "title": "Silver Dragon Station Chain",
+      "price": 12430000,
+      "image": "https://i.imgur.com/0XKbWb1.jpg",
+      "alterImage": "https://i.imgur.com/ALQV5XN.jpg"
+    }
+  ]
+}

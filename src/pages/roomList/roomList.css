@@ -1,0 +1,118 @@
+/* #region living-room-page */
+
+.banner-living-room {
+  background-image: url('../../assets/images//sofa-maxine-vai-vang-2.jpg');
+  background-position: 47% 92%;
+  height: 500px;
+}
+
+.banner-living-room .box-content {
+  box-shadow: inset 2200px 0 0 0 rgba(0, 0, 0, 0.4);
+}
+
+.banner-living-room .box-promo-title {
+  top: 88%;
+  height: auto;
+}
+
+.banner-living-room .box-promo-title h1 {
+  font-size: 2.8em;
+}
+
+.living-room-menu {
+  margin: 60px 0;
+  background-color: #f6f7f8;
+}
+
+.living-room-content a {
+  color: #0a0a0b;
+}
+
+.living-menu-title {
+  font-size: 15px;
+  line-height: 24px;
+
+  display: flex;
+  font-weight: bold;
+
+  padding: 0 20px;
+
+  border-left: 3px solid #fbaf1a;
+}
+
+.living-menu-items {
+  margin: 24px;
+}
+
+.living-menu-items ul li {
+  padding: 4px;
+}
+
+.living-menu-items ul li:nth-child(3),
+.living-menu-items ul li:nth-child(7) {
+  border-bottom: 1px solid #ddd;
+}
+
+.living-menu-items ul li a {
+  margin: 24px 3px;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.living-menu-items ul li a:hover {
+  color: #dd9933;
+}
+
+.wrap-room-type {
+  display: flex;
+  margin: 60px 20px 60px 20px;
+}
+
+.room-type {
+  width: 49%;
+  margin-left: 4px;
+}
+
+.room-type a img {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.room-type a .type {
+  font-family: mont;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 8px;
+  margin: 0 6px 0px 6px;
+}
+
+.room-type a .description {
+  padding: 8px;
+  margin: 0 6px 4px 6px;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.room-type .description-view {
+  padding: 4px 8px;
+  line-height: 24px;
+  margin: 0 12px 20px 12px;
+
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+
+  display: block;
+  width: 120px;
+  text-align: center;
+}
+
+.room-type .description-view:hover {
+  background-color: black;
+  color: white;
+}
+
+/* #endregion */

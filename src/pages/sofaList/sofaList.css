@@ -1,0 +1,245 @@
+/* #region product-category */
+.banner-sofa-categoty {
+  height: 440px;
+}
+
+.banner-sofa-categoty {
+  background-image: url('../../assets/images///nha-xinh-phong-khach-sofa-jazz-mau-cognac-phong-cach.jpg');
+  background-position: 47% 50%;
+}
+
+.banner-sofa-categoty .box-content {
+  box-shadow: inset 2200px 0 0 0 rgba(0, 0, 0, 0.3);
+}
+
+.banner-sofa-categoty .box-content a {
+  font-size: 1em;
+  color: #f7f7f7;
+  font-weight: unset;
+  text-align: center;
+  background-color: unset;
+  padding: 14px 20px;
+  display: block;
+  margin: auto;
+
+  width: auto;
+}
+
+.banner-sofa-categoty .box-promo-title {
+  top: 68%;
+}
+
+.banner-sofa-categoty .box-promo-title h1 {
+  font-size: 2.8em;
+}
+
+.banner-sofa-categoty ul {
+  display: flex;
+}
+
+.wrap-breadcrumb {
+  margin: 40px 0;
+}
+.breadcrumb {
+  background-color: white;
+}
+
+.breadcrumb a {
+  font-weight: 400;
+  color: #698299;
+  margin-top: 40px;
+  padding: 4px;
+}
+
+.breadcrumb-item {
+  font-family: mont;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.breadcrumb-item.active {
+  color: salmon;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.filter-attr-tittle {
+  margin: 16px 13px;
+}
+
+.sofa-category-filter .dropdown button {
+  width: 100%;
+  border-bottom: 1px solid;
+}
+
+.sofa-category-filter .dropdown .dropdown-toggle::after {
+  display: none;
+}
+
+.sofa-category-filter .dropdown .svg-inline--fa {
+  font-size: 12px;
+  margin: 2px 0 0 12px;
+}
+
+.sofa-category-filter .dropdown .dropdown-item {
+  line-height: 20px;
+  padding: 8px;
+}
+
+.dropdown-menu.show {
+  display: block;
+  width: 100%;
+}
+
+.wrap-filter-btn {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.wrap-filter-btn button {
+  background-color: #000;
+  color: white;
+  padding: 12px 20px;
+  text-transform: uppercase;
+}
+
+/* #endregion */
+
+/* #region product-category */
+.banner-sofa-categoty {
+  height: 440px;
+}
+
+.banner-sofa-categoty {
+  background-image: url('../../assets/images/nha-xinh-phong-khach-sofa-jazz-mau-cognac-phong-cach.jpg');
+  background-position: 47% 50%;
+}
+
+.banner-sofa-categoty .box-content {
+  box-shadow: inset 2200px 0 0 0 rgba(0, 0, 0, 0.3);
+}
+
+.banner-sofa-categoty .box-content a {
+  font-size: 1em;
+  color: #f7f7f7;
+  font-weight: unset;
+  text-align: center;
+  background-color: unset;
+  padding: 14px 20px;
+  display: block;
+  margin: auto;
+
+  width: auto;
+}
+
+.banner-sofa-categoty .box-promo-title {
+  top: 68%;
+}
+
+.banner-sofa-categoty .box-promo-title h1 {
+  font-size: 2.8em;
+}
+
+.banner-sofa-categoty ul {
+  display: flex;
+}
+
+.wrap-breadcrumb {
+  margin: 40px 0;
+}
+.breadcrumb {
+  background-color: white;
+}
+
+.breadcrumb a {
+  font-weight: 400;
+  color: #698299;
+  margin-top: 40px;
+  padding: 4px;
+}
+
+.breadcrumb-item {
+  font-family: mont;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.breadcrumb-item.active {
+  color: salmon;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.filter-dropdown {
+  user-select: none;
+  border-bottom: 1px solid gray;
+
+  width: 100%;
+}
+
+.filter-dropdown-menu {
+  display: block;
+  cursor: pointer;
+  width: 100%;
+}
+
+.filter-dropdown-toggle {
+  width: 100%;
+}
+
+.filter-dropdown-item {
+  width: 100%;
+}
+.filter-attr-tittle {
+  margin: 16px 13px;
+}
+
+.sofa-category-filter .dropdown button {
+  width: 100%;
+  border-bottom: 1px solid;
+}
+
+.sofa-category-filter .dropdown .dropdown-toggle::after {
+  display: none;
+}
+
+.sofa-category-filter .dropdown .svg-inline--fa {
+  font-size: 12px;
+  margin: 2px 0 0 12px;
+}
+
+.sofa-category-filter .dropdown .dropdown-item {
+  line-height: 20px;
+  padding: 8px;
+}
+
+.dropdown-menu.show {
+  display: block;
+  width: 100%;
+}
+
+.wrap-filter-btn {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.wrap-filter-btn button {
+  background-color: #000;
+  color: white;
+  padding: 12px 20px;
+  text-transform: uppercase;
+}
+
+/* #endregion */

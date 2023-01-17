@@ -1,0 +1,125 @@
+/* #region list-new-product  */
+
+.list-new-product {
+  margin: 100px 24px;
+  /* background-color: #A9A9B2; */
+}
+
+.list-title {
+  width: 100%;
+  margin-bottom: 40px;
+
+  display: flex;
+
+  border-bottom: 1px solid #ececec;
+}
+
+.list-title h2 {
+  font-size: 24px;
+  font-family: mont;
+  line-height: 40px;
+  border-bottom: 2px solid #ddd;
+}
+
+.list-title a {
+  font-size: 14px;
+  line-height: 40px;
+  padding-left: 20px;
+  color: #0a0a0b;
+}
+
+.list-title a .svg-inline--fa {
+  padding-left: 4px;
+}
+
+.wrap-product {
+  height: 360px;
+}
+
+.wrap-product a {
+  color: #0a0a0b;
+}
+
+.wrap-product a .product-img {
+  width: 100%;
+  display: block;
+  /* margin: 0 24px; */
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.wrap-product a .product-img-alter {
+  width: 100%;
+  display: none;
+  /* margin: 0 24px; */
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.wrap-product a .name {
+  color: #0a0a0b;
+  font-size: 14px;
+  padding: 24px 24px 0 24px;
+  line-height: 20px;
+}
+
+.wrap-product a .price {
+  color: #0a0a0b;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: end;
+  padding: 12px 24px;
+}
+
+#page-category {
+  margin-top: 40px;
+  display: flex;
+}
+
+.pagination {
+  margin: auto;
+}
+
+.pagination .page-link {
+  color: black;
+  padding: 12px 16px;
+}
+
+.wrap-product .add-to-cart {
+  margin-bottom: 20px;
+  padding: 8px 12px;
+  margin: 0 24px;
+  border: 1px solid #000;
+  background-color: white;
+  display: none;
+  text-transform: uppercase;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.wrap-product .add-to-cart:hover {
+  background-color: #000;
+  color: white;
+}
+
+.wrap-product:hover {
+  border: 1px solid #ddd;
+}
+
+.wrap-product:hover .add-to-cart {
+  display: block;
+}
+
+.wrap-product:hover a .product-img {
+  src: url(../../assets/images//sofa-square-1.jpg);
+}
+
+.wrap-product:hover a .product-img {
+  display: none;
+}
+
+.wrap-product:hover a .product-img-alter {
+  display: block;
+}
+
+/* #endregion list-new-product  */

@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Giỏ hàng
+    </title>
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../images/pngtree.jpg"
+    />
+
+    <!-- bootstrap css core -->
+    <link
+      rel="stylesheet"
+      href="../../lib/bootstrap-5.1.3-dist/css/bootstrap.min.css"
+    />
+
+    <!-- Font Awe - Core css -->
+    <link
+      rel="stylesheet"
+      href="../../lib/fontawesome-free-6.1.1-web/css/all.min.css"
+    />
+
+    <!-- Owlcarousel Core css -->
+    <link
+      rel="stylesheet"
+      href="../../lib/owlcarousel/assets/owl.carousel.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="../../lib/owlcarousel/assets/owl.theme.default.min.css"
+    />
+    <!-- Homepage css-->
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <!-- Homepage Responsive css-->
+    <link rel="stylesheet" href="../css/index-responsive.css" />
+  </head>
+  <body>
+    <!-- top-bar .Start -->
+    <div class="top-bar">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-8 col-md-8">
+            <div class="wrap-navbar-center">
+              <div class="wrap-language">
+                <img src="../images/vi.png" alt="" />
+                <p class="lang">vn</p>
+              </div>
+
+              <div class="menu-topbar">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <i class="fa-solid fa-phone"></i>
+                      1800 7200
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">Giới thiệu</a>
+                  </li>
+                  <li>
+                    <a href="#">Khuyến mãi</a>
+                  </li>
+                  <li>
+                    <a href="#">Giảm giá đặc biệt</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-4 col-md-4">
+            <div class="wrap-navbar-right">
+              <ul>
+                <li>
+                  <a href="#">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa-solid fa-heart"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="../html/cart.html">
+                    <i class="fa-solid fa-cart-arrow-down"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"
+                    >Đăng nhập
+                    <i class="fa-solid fa-user"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- top-bar .End -->
+
+    <!-- The Modal -->
+    <div class="modal menu-header-modal" id="myModal">
+      <div class="modal-dialog ">
+        <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div id="sidebarModal" class="sidebarModal">
+              <li class="nav-item dropdown"></li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle show-item-1" href="#">
+                  Sofa và Armchair
+                  <i class="fa-solid fa-chevron-down"></i>
+                </a>
+
+                <ul class="show-list-1">
+                  <li><a href="../html/sofa-catagory.html">Sofa</a></li>
+                  <li><a href="../html/sofa-catagory.html">Sofa góc</a></li>
+                  <li><a href="../html/sofa-catagory.html">Amchair</a></li>
+                  <li><a href="../html/sofa-catagory.html">Ghế dài & đôn</a></li>
+                  <li><a href="../html/sofa-catagory.html">Ghế thư dãn</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle  show-item-2" href="#"> 
+                  Bàn <i class="fa-solid fa-chevron-down"></i>
+                </a>
+                
+                <ul class="show-list-2">
+                  <li><a href="../html/sofa-catagory.html">Sofa</a></li>
+                  <li><a href="../html/sofa-catagory.html">Sofa góc</a></li>
+                  <li><a href="../html/sofa-catagory.html">Amchair</a></li>
+                  <li><a href="../html/sofa-catagory.html">Ghế dài & đôn</a></li>
+                  <li><a href="../html/sofa-catagory.html">Ghế thư dãn</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle  show-item-3" href="#"> 
+                  Ghế <i class="fa-solid fa-chevron-down"></i>
+                </a>
+                
+                <ul class="show-list-3">
+                  <li><a href="../html/sofa-catagory.html">Sofa</a></li>
+                  <li><a href="../html/sofa-catagory.html">Sofa góc</a></li>
+                  <li><a href="../html/sofa-catagory.html">Amchair</a></li>
+                  <li><a href="../html/sofa-catagory.html">Ghế dài & đôn</a></li>
+                  <li><a href="../html/sofa-catagory.html">Ghế thư dãn</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle show-item-4" href="#">
+                  Giường ngủ <i class="fa-solid fa-chevron-down"></i>
+                </a>
+                
+                <ul class="show-list-4">
+                  <li><a href="../html/sofa-catagory.html">Sofa</a></li>
+                  <li><a href="../html/sofa-catagory.html">Sofa góc</a></li>
+                  <li><a href="../html/sofa-catagory.html">Amchair</a></li>
+                  <li><a href="../html/sofa-catagory.html">Ghế dài & đôn</a></li>
+                  <li><a href="../html/sofa-catagory.html">Ghế thư dãn</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle show-item-5" href="#">
+                  Tủ và kệ <i class="fa-solid fa-chevron-down"></i>
+                </a>
+                
+                <ul class="show-list-5">
+                  <li><a href="../html/sofa-catagory.html">Sofa</a></li>
+                  <li><a href="../html/sofa-catagory.html">Sofa góc</a></li>
+                  <li><a href="../html/sofa-catagory.html">Amchair</a></li>
+                  <li><a href="../html/sofa-catagory.html">Ghế dài & đôn</a></li>
+                  <li><a href="../html/sofa-catagory.html">Ghế thư dãn</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle show-item-6" href="#">
+                  Hàng trang trí <i class="fa-solid fa-chevron-down"></i>
+                </a>
+                
+                <ul class="show-list-6">
+                  <li><a href="../html/sofa-catagory.html">Sofa</a></li>
+                  <li><a href="../html/sofa-catagory.html">Sofa góc</a></li>
+                  <li><a href="../html/sofa-catagory.html">Amchair</a></li>
+                  <li><a href="../html/sofa-catagory.html">Ghế dài & đôn</a></li>
+                  <li><a href="../html/sofa-catagory.html">Ghế thư dãn</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown show-list-7">
+                <a class="nav-link dropdown-toggle show-item7" href="#"> 
+                  Ngoại thất  <i class="fa-solid fa-chevron-down"></i>
+                </a>
+              </li>
+              
+              <ul class="show-list-7">
+                <li><a href="../html/sofa-catagory.html">Sofa</a></li>
+                <li><a href="../html/sofa-catagory.html">Sofa góc</a></li>
+                <li><a href="../html/sofa-catagory.html">Amchair</a></li>
+                <li><a href="../html/sofa-catagory.html">Ghế dài & đôn</a></li>
+                <li><a href="../html/sofa-catagory.html">Ghế thư dãn</a></li>
+              </ul>
+            </div>
+              
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- header-main.Start -->
+    <div class="header-main">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+            <div class="wrap-menu-header">
+              <!-- <div class="menu-header-box">
+
+              </div> -->
+
+              <div id="mySidebar" class="sidebar">
+                <a
+                  href="javascript:void(0)"
+                  class="closebtn"
+                  onclick="closeNav()"
+                  >×</a
+                >
+
+                <li class="nav-item dropdown"></li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle show-item-1" href="#">
+                    Sofa và Armchair
+                    <i class="fa-solid fa-chevron-down"></i>
+                  </a>
+
+                  <ul class="show-list-1">
+                    <li><a href="../html/sofa-catagory.html">Sofa</a></li>
+                    <li><a href="../html/sofa-catagory.html">Sofa góc</a></li>
+                    <li><a href="../html/sofa-catagory.html">Amchair</a></li>
+                    <li><a href="../html/sofa-catagory.html">Ghế dài & đôn</a></li>
+                    <li><a href="../html/sofa-catagory.html">Ghế thư dãn</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle  show-item-2" href="#"> 
+                    Bàn <i class="fa-solid fa-chevron-down"></i>
+                  </a>
+                  
+                  <ul class="show-list-2">
+                    <li><a href="../html/sofa-catagory.html">Sofa</a></li>
+                    <li><a href="../html/sofa-catagory.html">Sofa góc</a></li>
+                    <li><a href="../html/sofa-catagory.html">Amchair</a></li>
+                    <li><a href="../html/sofa-catagory.html">Ghế dài & đôn</a></li>
+                    <li><a href="../html/sofa-catagory.html">Ghế thư dãn</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle  show-item-3" href="#"> 
+                    Ghế <i class="fa-solid fa-chevron-down"></i>
+                  </a>
+                  
+                  <ul class="show-list-3">
+                    <li><a href="../html/sofa-catagory.html">Sofa</a></li>
+                    <li><a href="../html/sofa-catagory.html">Sofa góc</a></li>
+                    <li><a href="../html/sofa-catagory.html">Amchair</a></li>
+                    <li><a href="../html/sofa-catagory.html">Ghế dài & đôn</a></li>
+                    <li><a href="../html/sofa-catagory.html">Ghế thư dãn</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle show-item-4" href="#">
+                    Giường ngủ <i class="fa-solid fa-chevron-down"></i>
+                  </a>
+                  
+                  <ul class="show-list-4">
+                    <li><a href="../html/sofa-catagory.html">Sofa</a></li>
+                    <li><a href="../html/sofa-catagory.html">Sofa góc</a></li>
+                    <li><a href="../html/sofa-catagory.html">Amchair</a></li>
+                    <li><a href="../html/sofa-catagory.html">Ghế dài & đôn</a></li>
+                    <li><a href="../html/sofa-catagory.html">Ghế thư dãn</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle show-item-5" href="#">
+                    Tủ và kệ <i class="fa-solid fa-chevron-down"></i>
+                  </a>
+                  
+                  <ul class="show-list-5">
+                    <li><a href="../html/sofa-catagory.html">Sofa</a></li>
+                    <li><a href="../html/sofa-catagory.html">Sofa góc</a></li>
+                    <li><a href="../html/sofa-catagory.html">Amchair</a></li>
+                    <li><a href="../html/sofa-catagory.html">Ghế dài & đôn</a></li>
+                    <li><a href="../html/sofa-catagory.html">Ghế thư dãn</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle show-item-6" href="#">
+                    Hàng trang trí <i class="fa-solid fa-chevron-down"></i>
+                  </a>
+                  
+                  <ul class="show-list-6">
+                    <li><a href="../html/sofa-catagory.html">Sofa</a></li>
+                    <li><a href="../html/sofa-catagory.html">Sofa góc</a></li>
+                    <li><a href="../html/sofa-catagory.html">Amchair</a></li>
+                    <li><a href="../html/sofa-catagory.html">Ghế dài & đôn</a></li>
+                    <li><a href="../html/sofa-catagory.html">Ghế thư dãn</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown show-list-7">
+                  <a class="nav-link dropdown-toggle show-item7" href="#"> 
+                    Ngoại thất  <i class="fa-solid fa-chevron-down"></i>
+                  </a>
+                </li>
+                
+                <ul class="show-list-7">
+                  <li><a href="../html/sofa-catagory.html">Sofa</a></li>
+                  <li><a href="../html/sofa-catagory.html">Sofa góc</a></li>
+                  <li><a href="../html/sofa-catagory.html">Amchair</a></li>
+                  <li><a href="../html/sofa-catagory.html">Ghế dài & đôn</a></li>
+                  <li><a href="../html/sofa-catagory.html">Ghế thư dãn</a></li>
+                </ul>
+              </div>
+
+              <div class="wrap-store-logo">
+                <!-- <button class="openbtn" onclick="openNav()">☰</button> -->
+                <button type="button" class="openbtn" data-bs-toggle="modal" data-bs-target="#myModal">
+                  ☰
+                </button>
+
+                <a href="../../index.html" class="store-logo"
+                  ><img src="../images/logo-nha-xinh-moi.png" alt=""
+                /></a>
+              </div>
+
+
+              <div class="wrap-navbar-right">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <i class="fa-solid fa fa-search"></i>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#">
+                      <i class="fa-solid fa-location-dot"></i>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="../html/cart.html">
+                      <i class="fa-solid fa-cart-arrow-down"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-5 col-md-5 col-lg-6 col-xl-7">
+            <div class="wrap-nav-header">
+              <ul class="nav nav-pills">
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle product-list-menu"
+                    id="product-list-menu"
+                    href="../html/living-room.html"
+                  >
+                    SẢN PHẨM
+                    <i class="fa-solid fa-chevron-down"></i>
+                  </a>
+
+                  <div class="mega-box-submenu">
+                    <div class="submenu-content container">
+                      <div class="row">
+                        <ul class="mega-links">
+                          <li>
+                            <a href="../html/sofa-catagory.html">Sofa</a>
+                          </li>
+
+                          <li>
+                            <a href="../html/sofa-catagory.html"
+                              >Sofa góc</a
+                            >
+                          </li>
+
+                          <li>
+                            <a href="../html/sofa-catagory.html"
+                              >Ghế thư dãn</a
+                            >
+                          </li>
+
+                          <li>
+                            <a href="../html/sofa-catagory.html">Amchair</a>
+                          </li>
+
+                          <li>
+                            <a href="../html/sofa-catagory.html"
+                              >Ghế dài và đôn</a
+                            >
+                          </li>
+
+                          <li>
+                            <a href="../html/sofa-catagory.html">Bàn bên</a>
+                          </li>
+
+                          <li>
+                            <a href="../html/sofa-catagory.html"
+                              >Bàn nước</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div class="row">
+                        <ul class="mega-links">
+                          <li>
+                            <a href="../html/sofa-catagory.html">Bàn ăn</a>
+                          </li>
+
+                          <li>
+                            <a href="../html/sofa-catagory.html">Ghế Bar</a>
+                          </li>
+
+                          <li>
+                            <a href="../html/sofa-catagory.html">Tủ ly</a>
+                          </li>
+
+                          <li>
+                            <a href="../html/sofa-catagory.html">Xe đẩy</a>
+                          </li>
+
+                          <li>
+                            <a href="../html/sofa-catagory.html">Tủ bếp</a>
+                          </li>
+
+                          <li>
+                            <a href="../html/sofa-catagory.html"
+                              >Thiết bị bếp</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div class="row">
+                        <ul class="mega-links">
+                          <li>
+                            <a href="../html/sofa-catagory.html"
+                              >Giường ngủ</a
+                            >
+                          </li>
+                          <li>
+                            <a href="../html/sofa-catagory.html"
+                              >Bàn đầu giường</a
+                            >
+                          </li>
+
+                          <li>
+                            <a href="../html/sofa-catagory.html"
+                              >Bản trang điểm</a
+                            >
+                          </li>
+
+                          <li>
+                            <a href="../html/sofa-catagory.html"
+                              >Bản tủ áo</a
+                            >
+                          </li>
+
+                          <li>
+                            <a href="../html/sofa-catagory.html"
+                              >Tủ âm tường</a
+                            >
+                          </li>
+
+                          <li>
+                            <a href="../html/sofa-catagory.html">Tủ nệm</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div class="row">
+                        <ul class="mega-links">
+                          <li>
+                            <a href="../html/sofa-catagory.html">Sofa</a>
+                          </li>
+
+                          <li>
+                            <a href="../html/sofa-catagory.html"
+                              >Sofa góc</a
+                            >
+                          </li>
+
+                          <li>
+                            <a href="../html/sofa-catagory.html"
+                              >Ghế thư dãn</a
+                            >
+                          </li>
+
+                          <li>
+                            <a href="../html/sofa-catagory.html">Amchair</a>
+                          </li>
+
+                          <li>
+                            <a href="../html/sofa-catagory.html"
+                              >Ghế dài và đôn</a
+                            >
+                          </li>
+
+                          <li>
+                            <a href="../html/sofa-catagory.html">Bàn bên</a>
+                          </li>
+
+                          <li>
+                            <a href="../html/sofa-catagory.html"
+                              >Bàn nước</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div class="row">
+                        <ul class="mega-links">
+                          <li>
+                            <a href="../html/sofa-catagory.html">Sofa</a>
+                          </li>
+
+                          <li>
+                            <a href="../html/sofa-catagory.html"
+                              >Sofa góc</a
+                            >
+                          </li>
+
+                          <li>
+                            <a href="../html/sofa-catagory.html"
+                              >Ghế thư dãn</a
+                            >
+                          </li>
+
+                          <li>
+                            <a href="../html/sofa-catagory.html">Amchair</a>
+                          </li>
+
+                          <li>
+                            <a href="../html/sofa-catagory.html"
+                              >Ghế dài và đôn</a
+                            >
+                          </li>
+
+                          <li>
+                            <a href="../html/sofa-catagory.html">Bàn bên</a>
+                          </li>
+
+                          <li>
+                            <a href="../html/sofa-catagory.html"
+                              >Bàn nước</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div class="row">
+                        <ul class="mega-links">
+                          <li>
+                            <a href="../html/sofa-catagory.html">Sofa</a>
+                          </li>
+
+                          <li>
+                            <a href="../html/sofa-catagory.html"
+                              >Sofa góc</a
+                            >
+                          </li>
+
+                          <li>
+                            <a href="../html/sofa-catagory.html"
+                              >Ghế thư dãn</a
+                            >
+                          </li>
+
+                          <li>
+                            <a href="../html/sofa-catagory.html">Amchair</a>
+                          </li>
+
+                          <li>
+                            <a href="../html/sofa-catagory.html"
+                              >Ghế dài và đôn</a
+                            >
+                          </li>
+
+                          <li>
+                            <a href="../html/sofa-catagory.html">Bàn bên</a>
+                          </li>
+
+                          <li>
+                            <a href="../html/sofa-catagory.html"
+                              >Bàn nước</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div class="row">
+                        <img
+                          src="../images/nha-xinh-phong-khach-hien-dai-poppy.jpg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="../html/living-room.html"
+                  >
+                    PHÒNG
+                    <i class="fa-solid fa-chevron-down"></i>
+                  </a>
+
+                  <ul class="room-submenu">
+                    <li>
+                      <a href="../html/living-room.html">Phòng khách</a>
+                    </li>
+
+                    <li>
+                      <a href="../html/living-room.html">Phòng ăn</a>
+                    </li>
+
+                    <li>
+                      <a href="../html/living-room.html">Phòng ngủ</a>
+                    </li>
+
+                    <li>
+                      <a href="../html/living-room.html">Phòng làm việc</a>
+                    </li>
+
+                    <li>
+                      <a href="../html/living-room.html">Tủ bếp</a>
+                    </li>
+
+                    <li>
+                      <a href="../html/living-room.html">Hàng trang trí</a>
+                    </li>
+                  </ul>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item">Link 1</a></li>
+                    <li><a class="dropdown-item">Link 2</a></li>
+                    <li><a class="dropdown-item">Link 3</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="../html/living-room.html">BỘ SƯU TẬP</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="../html/living-room.html">THIẾT KẾ NỘI THẤT</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="../html/living-room.html">SHOWROOM ẢO</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="../html/living-room.html">GÓC CẢM HỨNG</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-4 col-md-4 col-lg-3 col-xl-3">
+            <div class="wrap-search">
+              <input
+                type="text"
+                class="searchTerm"
+                placeholder="Tìm sản phẩm"
+              />
+              <button type="submit" class="searchButton">
+                <i class="fa fa-search"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- <a href="#" id="product-list-menu">product-list-menu</a> -->
+        </div>
+      </div>
+    </div>
+    <!-- header-main.End -->
+    
+    
+    <!-- Cart-content -->
+
+    <div class="wrap-cart-title">
+        <div class="container">
+            <h1>Giỏ hàng <span>2</span></h1>
+        </div>
+    </div>
+
+    <div class="wrap-cart-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-7">
+              <div class="products-in-cart">
+                  <div class="cart-product-img">
+                      <img src="../images/cart-TU-LY-BARBIER-WALNUT-410043Z-1-300x200.jpg" alt="">
+                  </div>
+
+                  <div class="cart-product-info">
+                      <div class="cart-product-title">
+                          <div class="cart-product-name">
+                            <h2>Tủ Ly Barbier Walnut 410043Z</h2>
+                          </div>
+
+                      </div>
+
+                      <p class="cart-product-material">pa_vat-lieu: 688</p>
+                      
+                      <p class="cart-product-size">pa_kich-thuoc: 689</p>
+
+                      <p class="cart-product-prize">49,690,000₫</p>
+
+                      
+                      <div class="cart-product-option">
+                        <div class="add-to-wishlist">
+                          <h2> Thêm vào Wishlist</h2>
+                        </div>
+
+                        <div class="cart-product-quantity">
+                          <button class="sub-product">-</button>
+                          <p class="product-quantity">1</p>
+                          <button class="plus-product">+</button>
+
+                          <button class="remove-product"><i class="fa-solid fa-trash-can"></i></button>
+                          
+                        </div>
+                    </div>
+                  </div>
+              </div>
+
+              
+              <div class="products-in-cart">
+                <div class="cart-product-img">
+                    <img src="../images/cart-ghe-an-peak-mau-xanh-1-300x200.jpg" alt="">
+                </div>
+
+                <div class="cart-product-info">
+                    <div class="cart-product-title">
+                        <div class="cart-product-name">
+                          <h2>Ghế ăn Peak vải xanh</h2>
+                        </div>
+                    </div>
+
+                    <p class="cart-product-material">pa_vat-lieu: 785 793</p>
+                    
+                    <p class="cart-product-size">pa_kich-thuoc: 794</p>
+
+                    <p class="cart-product-prize">4,900,000₫</p>
+
+                    
+                    <div class="cart-product-option">
+                      <div class="add-to-wishlist">
+                        <h2> Thêm vào Wishlist</h2>
+                      </div>
+
+                      <div class="cart-product-quantity">
+                        <button class="sub-product">-</button>
+                        <p class="product-quantity">1</p>
+                        <button class="plus-product">+</button>
+                        
+                        <button class="remove-product"><i class="fa-solid fa-trash-can"></i></button>
+                      </div>
+                  </div>
+                </div>
+            </div>
+
+
+            <!-- <button class="update-cart-btn">Cập nhật giỏ hàng</button> -->
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-5">
+            <div class="wrap-cart-infos">
+              <h1 class="cart-title">Thông tin đơn hàng</h1>
+              
+              <div class="cart-qty">
+                <div class="cart-qty-title">
+                    <p>Số lượng</p>
+                </div>
+
+                <div class="cart-total-qty">
+                    <p>2</p>
+                </div>
+              </div>
+
+              <div class="cart-prize">
+                <div class="cart-prize-title">
+                    <p>Thành tiền</p>
+                </div>
+
+                <div class="cart-prize-money">
+                    <p>54,590,000₫</p>
+                </div>
+              </div>
+
+              <div class="cart-ship">
+                <div class="cart-ship-title">
+                    <p>Vận chuyển</p>
+                </div>
+
+                <div class="cart-ship-money">
+                    <p>Liên hệ phí vận chuyển sau</p>
+                </div>
+              </div>
+
+              <div class="cart-infos">
+                <ul>
+                  <li>
+                   <div class="discount-code">
+                       <input type="text" placeholder="Mã giảm giá">
+                       <button>Sử dụng</button>
+                   </div>
+                  </li>
+
+                  <li>
+                    <div class="cart-total">
+                        <div class="cart-total-title">
+                            <p>Khuyến mại</p>
+                        </div>
+
+                        <div class="cart-total-money">
+                            <p>-500,000₫</p>
+                        </div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="cart-total">
+                        <div class="cart-total-title">
+                            <p>Tổng cộng</p>
+                        </div>
+
+                        <div class="cart-total-money">
+                            <p>54,090,000₫</p>
+                        </div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <p class="shipment-details-title">
+                        Thông tin giao hàng
+                    </p>
+                    
+                    <p class="shipment-details-info">
+                        Đối với những sản phẩm có sẵn tại khu vực, Nhà Xinh sẽ giao hàng trong vòng 2-7 ngày. Đối với những sản phẩm không có sẵn, thời gian giao hàng sẽ được nhân viên Nhà Xinh thông báo đến quý khách.
+                      </span>
+                  </li>
+
+                  <li>
+                    <p class="shipment-time">Từ 2-6: 8:30 - 17:30</p>
+                  </li>
+
+                  <li>
+                    <p class="shipment-time">Thứ 7, CN: 9:30 - 16:30</p>
+                  </li>
+                  
+                  <li>
+                    <a href="#" class="address-near-you">Cửa hàng gần bạn</a>
+                  </li>
+
+                  <li>
+                    <div class="wrap-cart-btn">
+                        <button class="more-purchase" onclick="goToCate()">Tiếp tục mua hàng</button>
+                        <button class="purchasing" onclick="payment()">Đặt mua hàng</button>
+                    </div>
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cart-content -->
+
+    <!-- footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-4 col-md-3">
+            <div class="wrap-footer-item">
+              <div class="footer-item-title">
+                <img src="../images/logo.png" alt="" />
+              </div>
+
+              <div class="footer-item-content">
+                <ul>
+                  <li>
+                    <p>FOLLOW US</p>
+                  </li>
+
+                  <li>
+                    <a class="follow-us-link" href="#">
+                      Instagram–Youtube–Facebook
+                    </a>
+                  </li>
+
+                  <li>
+                    <a class="follow-us-chain" href="#"> HỆ THỐNG CỬA HÀNG </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-4 col-md-3">
+            <div class="wrap-footer-item">
+              <div class="footer-item-title">
+                <p>VỀ NHÀ XINH</p>
+              </div>
+
+              <div class="footer-item-content">
+                <ul>
+                  <li>
+                    <a class="follow-us-link" href="#"> Tin tức </a>
+                  </li>
+
+                  <li>
+                    <a class="follow-us-link" href="#">
+                      Giới thiệu công ty (MWG.vn)
+                    </a>
+                  </li>
+
+                  <li>
+                    <a class="follow-us-link" href="#"> Tuyển dụng </a>
+                  </li>
+
+                  <li>
+                    <br />
+                  </li>
+
+                  <li>
+                    <a class="follow-us-link" href="#">
+                      Gửi góp ý, khiếu nại
+                    </a>
+                  </li>
+
+                  <li>
+                    <a class="follow-us-link" href="#">
+                      Tìm hiểu về mua trả góp
+                    </a>
+                  </li>
+
+                  <li>
+                    <a class="follow-us-link" href="#"> Chính sách bảo hành </a>
+                  </li>
+
+                  <li>
+                    <a class="follow-us-link" href="#"> Giao hàng </a>
+                  </li>
+
+                  <li>
+                    <a class="follow-us-link" href="#"> Bảo hành </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-4 col-md-3">
+            <div class="wrap-footer-item">
+              <div class="footer-item-title">
+                <a href="#">CẢM HỨNG #NHAXINH</a>
+              </div>
+
+              <div class="footer-item-content">
+                <ul>
+                  <li>
+                    <a class="follow-us-link" href="#"> Sản phẩm </a>
+                  </li>
+
+                  <li>
+                    <a href="#"> Ý tưởng và cảm hứng </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-3">
+            <div class="wrap-footer-item">
+              <div class="footer-item-title">
+                <a href="#">NEWSLETTER</a>
+              </div>
+
+              <div class="footer-item-content">
+                <ul>
+                  <li>
+                    <p>
+                      Hãy để lại email của bạn để nhận được những ý tưởng trang
+                      trí mới và những thông tin, ưu đãi từ Nhà Xinh
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="wrap-license">
+              <p>
+                © 2018. Công ty cổ phần Thế Giới Di Động. GPDKKD: 0303217354 do
+                sở KH & ĐT TP.HCM cấp ngày 02/01/2007. GPMXH: 238/GP-BTTTT do Bộ
+                Thông Tin và Truyền Thông cấp ngày 04/06/2020. Địa chỉ: 128 Trần
+                Quang Khải, P. Tân Định, Q.1, TP.Hồ Chí Minh. Điện thoại: 028
+                38125960. Email: cskh@thegioididong.com. Chịu trách nhiệm nội
+                dung: Huỳnh Văn Tốt. Xem chính sách sử dụng
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- list-new-product -->
+
+    <!-- Jquery -->
+
+    <script src="../../lib/jquery-3.6.0.min.js"></script>
+
+    <!-- Owl Javascript -->
+    <script src="../../lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- bootstrap js core -->
+    <script src="../../lib/bootstrap-5.1.3-dist/js/bootstrap.bundle.js"></script>
+    <!-- Font Awe - js -->
+    <script src="../../lib/fontawesome-free-6.1.1-web/js/all.min.js"></script>
+
+    <!-- Home pages - js -->
+    <script src="../js/main.js"></script>
+
+    <!-- Custom Owlcarousel  -->
+    <script src="../js/custom-owl.js"></script>
+  </body>
+</html>

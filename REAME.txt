@@ -1,0 +1,66 @@
+1.HomePage
+	- newProductList
+		table : product 
+			{
+				productId,
+				productName ,
+				productImage,
+				productPrice,
+				productQuantity,
+				isNew,
+				viewed,
+				categoryId,
+			}
+	- viewedProductList
+
+	- addToCart
+		table : cart
+			{
+				cartId,
+				productId,
+				productImage,
+				productPrice,
+			}
+	- viewedProductList
+
+2.RoomList
+	- roomList
+		table : Room
+			{
+				roomId,
+				roomImage,
+				roomPrice,
+			}
+
+3.sofaList
+	- sofaList
+		table : sofa
+			{
+				sofaId,
+				sofaImage,
+				sofaPrice,
+				sofaId,
+				roomId,
+			}
+
+	- filter :
+
+	- addToCart
+
+4.productDetail
+	- product Detail
+
+	- addToCart
+
+5.Cart
+	- UpdateCart
+
+6.Payment
+	- addPaymentInfo
+		table : payment
+			{
+				cartId,
+				paymentId,
+				totalPrice,
+			}
+	
